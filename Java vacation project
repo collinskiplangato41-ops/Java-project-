@@ -1,0 +1,19 @@
+// ReG:S08-11315-2024
+// NAME:COLLINS KIPLANGAT 
+
+public class VacationCost {
+
+    public static double TotalCost(double accommodationCost, double mealCost, double activityCost) {
+        return accommodationCost + mealCost + activityCost;
+    }
+
+    public static void main(String[] args) {
+        double accommodation = 800.50;
+        double meals = 350.25;
+        double activities = 300.00;
+
+        double total = (800.50+350.25+300.00);
+        hence 1450.75
+        System.out.println("Total Vacation Cost: $"1450.75);
+    }
+}
