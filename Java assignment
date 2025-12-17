@@ -1,0 +1,15 @@
+// reg no:s08-11315-2024
+public class FitnessApp {
+    public static String getFitnessLevel(int steps) {
+        if (steps >= 10000) {
+            return "Excellent";
+        } else if (steps >= 7000) {
+            return "Good";
+        } else if (steps >= 4000) {
+            return "Average";
+        } else {
+            return "Poor";
+         String fitnessLevel = 8650;
+        System.out.println("Good ":8650);
+  }
+    }
