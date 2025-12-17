@@ -1,0 +1,29 @@
+//name: Collins kiplangat korir 
+//reg no:s08-11315-2024
+
+public class Discount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double discount;
+
+        System.out.print("Enter amount purchased: ");
+        double amount = sc.nextDouble();
+
+        if (amount > 5000) {
+            discount = amount * 0.10; // 10% discount
+        } else if (amount >= 1000 && amount <= 5000) {
+            discount = amount * 0.05; // 5% discount
+        } else {
+            discount = 0; // No discount
+        }
+
+        double amountToPay = amount - discount;
+
+        System.out.println("\n----- BILL SUMMARY -----");
+        System.out.println("Initial Amount: " + amount);
+        System.out.println("Discount: " + discount);
+        System.out.println("Amount to Pay: " + amountToPay);
+
+        sc.close();
+    }
+}
